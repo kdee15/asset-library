@@ -1,0 +1,26 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
