@@ -1,0 +1,93 @@
+<h1>Forge Technologies Project Setup</h1>
+
+<h2>INITIAL CONFIG</h2>
+
+<h3>Prerequisites</h3>
+<p>ensure you have the following installed:</p>
+<p>Node.js</p>
+<a class="you-type" href="https://nodejs.org/en/download/" target="_blank">https://nodejs.org/en/download</a>
+<p>Ruby</p>
+<a class="you-type" href="http://rubyinstaller.org" target="_blank">http://rubyinstaller.org</a>
+<p>Bower</p>
+<p class="you-type">npm install -g bower</p>
+
+<span class="warning">
+    <h4>!!!!! NB !!!!!</h4>
+    <p>Before you carry on, set up your github project in <b>Sourcetree</b> or <b>Github Desktop</b></p>
+    <p>For Forge purposes, we will set the local repo path to <b>Projects/Project Name/3_root</b></p>
+</span>
+
+<h3>for Windows</h3>
+<p>run CMD as administrator, and run the following commands:</p>
+<p class="you-type">npm install</p>
+<p class="you-type">bower install</p>
+<p class="you-type">npm install gulp -g</p>
+<p class="you-type">npm install gulp</p>
+<p class="you-type">gulp install-js</p>
+<p class="you-type">gulp concat-js</p>
+
+<p>that should complete the setup, next is to run gulp</p>
+<p class="you-type">gulp</p>
+
+<h3>for Mac</h3>
+<p>run Terminal, and run the following commands:</p>
+<p class="you-type">./update.sh</p>
+
+
+<h2>INSTALLING JS COMPONENTS</h2>
+<p>run CMD as administrator, and run the following command:</p>
+<p class="you-type">bower install --save-dev <b>MODULENAME</b></p>
+<p class="you-type">This installs the module to your <b>"_system/_bower.cache"</b> folder</p>
+<p>in your dev client open <b>_config.json</b></p>
+<p>in the <b>bower</b> section of the code, add the path to the .js file ...</p>
+<pre>
+    <code class="apache">
+        <span class="tag"><span class="tag">{</span></span>
+            <span class="keyword"><span class="keyword">"root": "www",</span></span>
+                <span class="keyword"><span class="keyword">"assets" : {</span></span>
+                    <span class="keyword"><span class="keyword">"js" : {</span></span>
+                        <span class="keyword"><span class="keyword">"bower" : [</span></span>
+                            <span class="keyword"><span class="keyword">"path/filename.js",</span></span>
+                            <span class="keyword"><span class="keyword">"path/filename.js"</span></span>
+    </code>
+</pre>
+
+<p>and futher down in the <b>order</b> section of the code, add .js file</p>
+
+<pre>
+    <code class="apache">
+                        <span class="keyword"><span class="keyword">"order" : [</span></span>
+                            <span class="keyword"><span class="keyword">"filename.js"</span></span>
+                            <span class="keyword"><span class="keyword">"filename.js"</span></span>
+                            <span class="keyword"><span class="keyword">"filename.js"</span></span>
+    </code>
+</pre>
+
+<span class="warning">
+    <h4>!!!!! NB !!!!!</h4>
+    <p>important to note that this section sets the precedence of the JS files.</p>
+    <p>Therefore if the .JS file you are loading is required by other components, it should be loaded ABOVE those which require it</p>
+</span>
+
+<p>save that, and head back over to CMD/Terminal, and run the following commands:</p>
+<p class="you-type">gulp install-js</p>
+<p>which copies all the JS files to our <b>assets/js/components</b> directory</p>
+<p class="you-type">gulp concat-js</p>
+<p>which compiles the <b>assets/js/components.js</b> file.</p>
+<br>
+<br>
+<p>Thats it ... go be AWESOME!!!</p>
+
+
+
+<style>
+
+    body        {color: #2B2B2B; font-family: arial;}
+    .you-type   {border: 1px solid green; display: block; background: #F4F4F4; width: 98%; padding:10px 1%; overflow: auto; white-space: nowrap;}
+    pre         {width:100%; overflow: auto;}
+    
+    .warning    {border: 1px solid red; display: block; background: #FEFEFE; width: 98%; padding:10px 1%; overflow: auto; white-space: nowrap;}
+    
+    .warning h4 {color:red;}
+    
+</style>

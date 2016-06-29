@@ -1,14 +1,34 @@
-// ==========================================================================
-// Global Config
-// ==========================================================================
+// 0. CONFIG [ 0.1. VARIABLES ]  ######################################################################################
 
-// Font Stacks
+// A. FONTS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. FONT SETUP ----------------------------------------------------------------------------------------------------
 
 $font-family--primary    : sans-serif;
 $font-family--secondary  : sans-serif;
 
+$roboto: 	'Roboto', Helvetica, Arial, sans-serif;
 
-// Font Weights
+$base-font:			$roboto; // Change your default font type.
+$base-size: 		16px; 		// Choose your base font size. I like 16px and Relative Readability.
+$baseline: 			20px; 		// Choose your Line Height.
+
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A.2. FONT SIZES ----------------------------------------------------------------------------------------------------
+
+$xxx-large:			4em; 		// 32px
+$xx-large:			2em; 		// 32px
+$x-large:			1.7em; 		// 32px
+$large:				1.5em; 		// 24px
+$medium:			1.125em; 	// 18px
+$normal:			1em; 		// 16px
+$small:				0.75em; 	// 12px
+$x-small:			0.625em; 	// 10px
+
+// A.2. END -----------------------------------------------------------------------------------------------------------
+
+// A.3. FONT WEIGHTS --------------------------------------------------------------------------------------------------
 
 $font-weight--thin       : 100;
 $font-weight--light      : 300;
@@ -16,44 +36,44 @@ $font-weight--medium     : 400;
 $font-weight--bold       : 700;
 $font-weight--ultra-bold : 900;
 
-// Text
-$base__hero-font-size 	: 70px;
-$base__font-size 		: 14px;
-$buttons__font-size 	: 16px;
-$base__line      		: 20px;
-$letter-space    		: 1px;
+// A.2. END -----------------------------------------------------------------------------------------------------------
 
-// Border radius
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-$br--default    : .4em;
-$br--round      : 1%;
+// B. MARGINS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Breakpoints
+$baseline-large:        $baseline*4;
+$baseline-medium:       $baseline*2;
+$baseline-small:        $baseline/2;
+$baseline-smaller:      $baseline/4;
 
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Descriptive Base Colors
+// C. COLOURS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-$bodyPrim: #887872;
+$White:         #ffffff;
+$Black:         #000000;
+$Blue:          #21b7ef;
+$Blue2:         #1ab5ee;
+$Blue3:         #009ee3;
+$Blue4:         #33b1e9;
+$Blue5:         #227BB9;
+$Orange:        #FCBF0F;
+$Green:         #50ce7a;
+$Green2:        #24c259;
+$Red:           #D1230E;
+$Purple:        #836791;
+$Purple-Light:  #8E729C;
+$Grey-Dark:     #636f76;
+$Grey-Light:    #f2f2f2;
+$Grey-nav-line: #b2b2b2;
+$Brown-Dark:    #686868;
+$Grey1:         #37464f;
+$Grey2:         #69747b;
+$Grey3:         #E8E8E8;
+$Grey4:         #424242;
+$Grey5:         #f7f7f7;
 
-$brandWhite: #ffffff;
-$brandBlack: #000000;
-$brandBlue: #21b7ef;
-$brandBlue2: #1ab5ee;
-$brandBlue3: #009ee3;
-$brandBlue4: #33b1e9;
-$brandBlue5: #227BB9;
-$brandOrange: #FCBF0F;
-$brandGreen: #50ce7a;
-$brandGreen2: #24c259;
-$brandRed: #D1230E;
-$brandPurple: #836791;
-$brandPurple-Light: #8E729C;
-$brandGrey-Dark: #636f76;
-$brandGrey-Light: #f2f2f2;
-$brandGrey-nav-line: #b2b2b2;
-$brandBrown-Dark: #686868;
-$brandGrey1: #37464f;
-$brandGrey2: #69747b;
-$brandGrey3: #E8E8E8;
-$brandGrey4: #424242;
-$brandGrey5: #f7f7f7;
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// END OF FILE ########################################################################################################
