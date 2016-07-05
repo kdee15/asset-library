@@ -23,6 +23,272 @@ ul {
   list-style: none;
 }
 
+span.btn,
+button.btn,
+input.btn,
+a.btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  min-width: 108px;
+}
+span.btn.btn-blue,
+button.btn.btn-blue,
+input.btn.btn-blue,
+a.btn.btn-blue {
+  background: #21b7ef;
+  background: -moz-linear-gradient(top, #4bbaeb 0%, #009ee3 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4bbaeb 0%, #009ee3 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4bbaeb 0%, #009ee3 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bbaeb', endColorstr='#009ee3',GradientType=0 );
+  /* IE6-9 */
+  color: #fff;
+  box-shadow: none;
+  border-color: #c5e9f8;
+}
+span.btn.btn-blue:focus, span.btn.btn-blue:active, span.btn.btn-blue:hover,
+button.btn.btn-blue:focus,
+button.btn.btn-blue:active,
+button.btn.btn-blue:hover,
+input.btn.btn-blue:focus,
+input.btn.btn-blue:active,
+input.btn.btn-blue:hover,
+a.btn.btn-blue:focus,
+a.btn.btn-blue:active,
+a.btn.btn-blue:hover {
+  border-color: #c5e9f8;
+}
+span.btn.btn-blue > a,
+button.btn.btn-blue > a,
+input.btn.btn-blue > a,
+a.btn.btn-blue > a {
+  color: #fff;
+}
+span.btn.btn-blue > a:hover,
+button.btn.btn-blue > a:hover,
+input.btn.btn-blue > a:hover,
+a.btn.btn-blue > a:hover {
+  text-decoration: none;
+}
+span.btn.btn-black,
+button.btn.btn-black,
+input.btn.btn-black,
+a.btn.btn-black {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7a7a7a+0,424242+100 */
+  background: #7a7a7a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7a7a7a 0%, #424242 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7a7a7a 0%, #424242 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7a7a7a 0%, #424242 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a7a7a', endColorstr='#424242',GradientType=0 );
+  /* IE6-9 */
+  color: #fff;
+  box-shadow: none;
+  border-color: #c4c4c4;
+}
+span.btn.btn-black:focus, span.btn.btn-black:active, span.btn.btn-black:hover,
+button.btn.btn-black:focus,
+button.btn.btn-black:active,
+button.btn.btn-black:hover,
+input.btn.btn-black:focus,
+input.btn.btn-black:active,
+input.btn.btn-black:hover,
+a.btn.btn-black:focus,
+a.btn.btn-black:active,
+a.btn.btn-black:hover {
+  border-color: #c4c4c4;
+}
+span.btn.btn-black > a,
+button.btn.btn-black > a,
+input.btn.btn-black > a,
+a.btn.btn-black > a {
+  color: #fff;
+}
+span.btn.btn-black > a:hover,
+button.btn.btn-black > a:hover,
+input.btn.btn-black > a:hover,
+a.btn.btn-black > a:hover {
+  text-decoration: none;
+}
+span.btn.btn-green,
+button.btn.btn-green,
+input.btn.btn-green,
+a.btn.btn-green {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66d48b+0,24c259+100 */
+  background: #50ce7a;
+  background: -moz-linear-gradient(top, #66d48b 0%, #24c259 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #66d48b 0%, #24c259 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #66d48b 0%, #24c259 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66d48b', endColorstr='#24c259',GradientType=0 );
+  /* IE6-9 */
+  color: #fff;
+  box-shadow: none;
+  border-color: #96e3b0;
+}
+span.btn.btn-green:focus, span.btn.btn-green:active, span.btn.btn-green:hover,
+button.btn.btn-green:focus,
+button.btn.btn-green:active,
+button.btn.btn-green:hover,
+input.btn.btn-green:focus,
+input.btn.btn-green:active,
+input.btn.btn-green:hover,
+a.btn.btn-green:focus,
+a.btn.btn-green:active,
+a.btn.btn-green:hover {
+  border-color: #96e3b0;
+}
+span.btn.btn-green > a,
+button.btn.btn-green > a,
+input.btn.btn-green > a,
+a.btn.btn-green > a {
+  color: #fff;
+}
+span.btn.btn-green > a:hover,
+button.btn.btn-green > a:hover,
+input.btn.btn-green > a:hover,
+a.btn.btn-green > a:hover {
+  text-decoration: none;
+}
+span.btn.btn-orange,
+button.btn.btn-orange,
+input.btn.btn-orange,
+a.btn.btn-orange {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdd255+0,fcbf0f+100 */
+  background: #FCBF0F;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fdd255 0%, #fcbf0f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fdd255 0%, #fcbf0f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fdd255 0%, #fcbf0f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd255', endColorstr='#fcbf0f',GradientType=0 );
+  /* IE6-9 */
+  color: #fff;
+  box-shadow: none;
+  border-color: #fce6a8;
+}
+span.btn.btn-orange:focus, span.btn.btn-orange:active, span.btn.btn-orange:hover,
+button.btn.btn-orange:focus,
+button.btn.btn-orange:active,
+button.btn.btn-orange:hover,
+input.btn.btn-orange:focus,
+input.btn.btn-orange:active,
+input.btn.btn-orange:hover,
+a.btn.btn-orange:focus,
+a.btn.btn-orange:active,
+a.btn.btn-orange:hover {
+  border-color: #fce6a8;
+}
+span.btn.btn-orange > a,
+button.btn.btn-orange > a,
+input.btn.btn-orange > a,
+a.btn.btn-orange > a {
+  color: #fff;
+}
+span.btn.btn-orange > a:hover,
+button.btn.btn-orange > a:hover,
+input.btn.btn-orange > a:hover,
+a.btn.btn-orange > a:hover {
+  text-decoration: none;
+}
+span.btn.btn-red,
+button.btn.btn-red,
+input.btn.btn-red,
+a.btn.btn-red {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#F44336+0,fcbf0f+100 */
+  background: #D22C0C;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #F44336 0%, #D22C0C 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F44336 0%, #D22C0C 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f44336 0%, #d22c0c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F44336', endColorstr='#D22C0C',GradientType=0 );
+  /* IE6-9 */
+  color: #fff;
+  box-shadow: none;
+  border-color: #FFB1AC;
+}
+span.btn.btn-red:focus, span.btn.btn-red:active, span.btn.btn-red:hover,
+button.btn.btn-red:focus,
+button.btn.btn-red:active,
+button.btn.btn-red:hover,
+input.btn.btn-red:focus,
+input.btn.btn-red:active,
+input.btn.btn-red:hover,
+a.btn.btn-red:focus,
+a.btn.btn-red:active,
+a.btn.btn-red:hover {
+  border-color: #FFB1AC;
+}
+span.btn.btn-red > a,
+button.btn.btn-red > a,
+input.btn.btn-red > a,
+a.btn.btn-red > a {
+  color: #fff;
+}
+span.btn.btn-red > a:hover,
+button.btn.btn-red > a:hover,
+input.btn.btn-red > a:hover,
+a.btn.btn-red > a:hover {
+  text-decoration: none;
+}
+span.btn.btn-lg,
+button.btn.btn-lg,
+input.btn.btn-lg,
+a.btn.btn-lg {
+  padding: 8px 20px;
+}
+span.btn.btn-xl,
+button.btn.btn-xl,
+input.btn.btn-xl,
+a.btn.btn-xl {
+  padding: 8px 24px;
+  font-size: 20px;
+}
+span.btn.btn-wide,
+button.btn.btn-wide,
+input.btn.btn-wide,
+a.btn.btn-wide {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+@media (max-width: 480px) {
+  span.btn.btn-wide,
+  button.btn.btn-wide,
+  input.btn.btn-wide,
+  a.btn.btn-wide {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+span.btn.btn-100,
+button.btn.btn-100,
+input.btn.btn-100,
+a.btn.btn-100 {
+  width: 100%;
+}
+
+button,
+a {
+  color: #21b7ef;
+}
+button > .glyphicon,
+a > .glyphicon {
+  font-size: 0.8em;
+}
+
 .page--maintenance .figure__logo img {
   width: 100%;
   height: auto;
@@ -57,5 +323,262 @@ ul {
 @media (max-width: 320px) {
   .page--maintenance .figure__logo {
     width: 100%;
+  }
+}
+
+.icon__bg-none {
+  fill: none;
+}
+
+.icon-left {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.icon-left svg {
+  width: 100%;
+  height: 100%;
+}
+.icon-left svg polygon,
+.icon-left svg circle,
+.icon-left svg rect,
+.icon-left svg path {
+  fill: #ffffff;
+}
+
+.icon-right {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.icon-right svg {
+  width: 100%;
+  height: 100%;
+}
+.icon-right svg polygon,
+.icon-right svg circle,
+.icon-right svg rect,
+.icon-right svg path {
+  fill: #ffffff;
+}
+
+.icon-thumb {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+.icon-thumb span {
+  color: #AAAAAA;
+}
+.icon-thumb .icon {
+  margin: 0;
+  padding: 0;
+}
+.icon-thumb .icon svg {
+  width: 100%;
+  height: 100%;
+}
+.icon-thumb .icon svg polygon,
+.icon-thumb .icon svg circle,
+.icon-thumb .icon svg rect,
+.icon-thumb .icon svg path {
+  fill: #AAAAAA;
+}
+
+.photo {
+  margin: 0 auto;
+  display: block;
+}
+.photo.image {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+.photo.image img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+}
+
+.fb {
+  background: #ffffff;
+  border-radius: 100%;
+}
+.fb .icon {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -3px;
+}
+.fb .icon svg {
+  width: 40px;
+  height: 40px;
+}
+.fb .icon svg polygon,
+.fb .icon svg circle,
+.fb .icon svg rect,
+.fb .icon svg path {
+  fill: #AAAAAA;
+}
+
+.google {
+  background: #ffffff;
+  border-radius: 100%;
+}
+.google .icon {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -3px;
+}
+.google .icon svg {
+  width: 40px;
+  height: 40px;
+}
+.google .icon svg polygon,
+.google .icon svg circle,
+.google .icon svg rect,
+.google .icon svg path {
+  fill: #AAAAAA;
+}
+
+.social-media.inline .item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.social-media.inline .item .icon {
+  margin: 0;
+  padding: 0;
+}
+.social-media.inline .item .icon svg {
+  width: 50px;
+  height: 50px;
+}
+.social-media.inline .item .icon svg polygon,
+.social-media.inline .item .icon svg circle,
+.social-media.inline .item .icon svg rect,
+.social-media.inline .item .icon svg path {
+  fill: #333333;
+}
+
+.section__membership-fees {
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  padding: 20px;
+  margin: 5px;
+}
+.section__membership-fees:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 20px;
+}
+.section__membership-fees:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  height: 40px;
+}
+.section__membership-fees.free:before {
+  background: pink;
+}
+.section__membership-fees.free:after {
+  background: pink;
+}
+.section__membership-fees ul,
+.section__membership-fees p {
+  color: #777 !important;
+}
+.section__membership-fees ul:first-child,
+.section__membership-fees p:first-child {
+  margin-top: 30px;
+}
+.section__membership-fees .plan-entry {
+  line-height: 30px;
+  display: inline-block;
+  width: 60%;
+}
+.section__membership-fees .plan-detail {
+  border: 1px solid red;
+  padding: 6px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+}
+.section__membership-fees .plan-features {
+  margin-bottom: 60px;
+}
+.section__membership-fees .plan-features .plan-features-item {
+  list-style-image: url("/sites/snap.dev.local.com/files/small_cute-ball-go-icon.png");
+}
+
+.table__mem-fees {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+  margin-top: 10px;
+}
+.table__mem-fees tr td {
+  padding: 5px;
+}
+.table__mem-fees tr td.td__label {
+  width: 50%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0;
+  border-top: 0;
+}
+.table__mem-fees tr td.td__feature {
+  width: 50%;
+  text-align: center;
+}
+.table__mem-fees tr:first-child td.td__label {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+.table__mem-fees tr:last-child td.td__label {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.table__mem-fees.free tr td.td__feature {
+  background: #CCC;
+}
+
+.ul__mem-fees {
+  margin-top: 20px;
+}
+.ul__mem-fees li {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .ul__mem-fees li {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .table__mem-fees.free tr td {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+
+  .ul__mem-fees li {
+    margin-top: 10px;
+  }
+  .ul__mem-fees li a {
+    display: block;
   }
 }
